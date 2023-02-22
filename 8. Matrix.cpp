@@ -1,17 +1,3 @@
-/*Write a C++ program to create a class called MATRIX using a 
-two-dimensional array of integers. Implement the following 
-operations by overloading the operator = = which checks the 
-compatibility of two matrices to be added and subtracted. Perform 
-the addition and subtraction by overloading the operators + and –
-respectively. Display the results by overloading the operator <<.
-If (m1= = m2)
-{
-m3 = m1 + m2;
-m4 = m1 – m2;
-}
-else
-display error*/
-
 #include<iostream>
 using namespace std;
 
