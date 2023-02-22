@@ -1,12 +1,3 @@
-/*Write a C++ program to create a class called OCTAL which has the 
-characteristics of an octal number. Implement the following operations by 
-writing an appropriate constructor and an overloaded operator +.
-1. OCTAL h = x; where x is an integer.
-2. Int y = h + k; where h is an OCTAL object and k is an 
-integer.
-Display the OCTAL result by overloading the operator <<. Also 
-display the values of h and Y.*/
-
 #include<iostream>
 #include<math.h>
 using namespace std;
@@ -65,10 +56,3 @@ int main()
     cout<<y;
     return 0;
 }
-
-/*
-OUTPUT:-
-Enter integer:-123
-Enter an integer to add:-23
-Octal of 123 is 173
-The integer after adding is 146 */
