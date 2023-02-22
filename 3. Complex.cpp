@@ -1,10 +1,3 @@
-/*Write a C++ program to create a class called COMPLEX and implement 
-the following overloading functions ADD that return a COMPLEX 
-number.
-1. ADD (a, s2) – where a in an integer (real part) and s2 is a complex 
-number.
-2. ADD (s1, s2) – where s1 and s2 are complex numbers*/
-
 #include<iostream>
 using namespace std;
 
@@ -61,13 +54,3 @@ int main()
    cout<<"s3 : ";
    s3.print();
  }
- /*OUTPUT:-
-Enter real and imaginary
-2   3
-s1 : 2+i3
-s2 : 2+s1
-   : 4+i3
-s3=s1+s2
-s1 : 2+i3
-s2 : 4+i3
-s3 : 6+i6*/
