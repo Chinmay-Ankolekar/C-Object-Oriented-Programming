@@ -1,13 +1,3 @@
-/*Write a C++ program to create a class called DATE. Accept two valid 
-dates in the form dd/mm/yy. Implement the following operations by 
-overloading the operations + and -. After every operation display the 
-results by overloading the operator<<.
-1. no_of_days = d1 – d2 ; where d1 and d2 are DATE objects, 
-d1>=d2 and no_of_days is an integer.
-2. d2 = d1 + no_of_days; where d1 is a DATE object and 
-no_of_days is an integer.
-*/
-
 #include<iostream>
 using namespace std;
 
@@ -162,15 +152,3 @@ int main()
     cin>>num;
     dd2=dd1+num;
 }
-/*
- OUTPUT:-
-Enter a valid date(dd mm yy):1 1 2019
-Enter a valid date(dd mm yy):1 1 2021
-The first date should be greater than the second date
-So enter the dates again
-Enter a valid date(dd mm yy):1 1 2021
-Enter a valid date(dd mm yy):1 1 2019
-Total number of days between these dates is=731
-Enter the no. of days to be added to the FIRST date:15
-New date is:16-1-2021
-  */
