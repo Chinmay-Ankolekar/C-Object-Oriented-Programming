@@ -1,8 +1,3 @@
-/*Define a class Rectangle which has a length and a breadth.Define the 
-constructors and the destructor and member funsctions to get the length 
-and the breadth. Write a global function which creates an instance of the 
-class Rectangle and computes the area using the member functions.*/
-
 #include<iostream>
 using namespace std;
 class rect{
@@ -40,11 +35,3 @@ int main(){
     r.area();
     return 0;
 }
-/*
-OUTPUT:-
-Enter the Length and Breadth : 4 3
-The Length is = 4
-The Breadth is =3
-The area is =12
-Destructor called
-*/
