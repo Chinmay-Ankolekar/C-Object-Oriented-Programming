@@ -1,13 +1,3 @@
-/*Write a C++ program to create a class called STACK using an array of 
-integers. Implement the following operations by overloading the 
-operators + and -.
-1. s1 = s1 + element; where s1 is an object of the class STACK and 
-element is an integer to be pushed on the top of the stack.
-2. s1 = s1 - ; where s1 is an object of the class STACK – operator 
-pops the element.
-Handle the STACK empty and STACK full conditions. Also display the 
-contents of the stack after each operation, by overloading the operator<<.*/
-
 #include<iostream>
 using namespace std;
 const int SIZE=5; 
@@ -103,36 +93,3 @@ int main()
      }
    }
 }
-/*
-OUTPUT:-
-1:PUSH 2:POP 3:DISPLAY 4:EXIT
-Enter your choice:1
-Enter the element to be inserted:1
-
-1:PUSH 2:POP 3:DISPLAY 4:EXIT
-Enter your choice:1
-Enter the element to be inserted:2
-
-1:PUSH 2:POP 3:DISPLAY 4:EXIT
-Enter your choice:1
-Enter the element to be inserted:3
-
-1:PUSH 2:POP 3:DISPLAY 4:EXIT
-Enter your choice:3
-The contents of the stack are :
-3
-2
-1
-
-1:PUSH 2:POP 3:DISPLAY 4:EXIT
-Enter your choice:2
-The element deleted is :3
-
-1:PUSH 2:POP 3:DISPLAY 4:EXIT
-Enter your choice:3
-The contents of the stack are :
-2
-1
-
-1:PUSH 2:POP 3:DISPLAY 4:EXIT
-Enter your choice:4*/
