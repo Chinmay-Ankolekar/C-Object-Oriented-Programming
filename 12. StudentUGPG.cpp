@@ -1,10 +1,3 @@
-/*Write a C++ program to create a class called STUDENT with data 
-members USN, Name and Age. Using inheritance, create the classes 2
-UGSTUDENT and PGSTUDENT having fields as Semester, Fees and 
-Stipend. Enter the data for at least 5 students. Find the semester wise 
-average age for all UG and PG students separately.
-*/
-
 #include<iostream>
 using namespace std;
 
@@ -93,31 +86,3 @@ for(i=1;i<=4;i++){
 }
 return 0;
 }
-/*
-OUTPUT:-
-Enter the entries of UG student:2
-Enter the details
-Enter Name :Chinmay
-Enter Regsiter No. and Age respectively:1 19
-Enter Sem:3
-Enter fees and stipend repectively:90000 10000
-
-Enter Name :ABC
-Enter Regsiter No. and Age respectively:2 20
-Enter Sem:3
-Enter fees and stipend repectively:90000 10000
-The average age of sem 3 is 19.5
-
-Enter the entries of PG student:2
-Enter the details
-Enter Name :Chinmay
-Enter Regsiter No. and Age respectively:1 22
-Enter Sem:1
-Enter fees and stipend repectively:90000 10000
-
-Enter Name :ABC
-Enter Regsiter No. and Age respectively:2 23
-Enter Sem:1
-Enter fees and stipend repectively:90000 10000
-The average age of sem 1 is 22.5
-*/
