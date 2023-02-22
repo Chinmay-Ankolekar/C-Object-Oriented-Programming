@@ -102,23 +102,3 @@ int main()
     cout<<"Order of the Input matrices is Not identical\n";
   }
 }
-
-/*OUTPUT:-
-Enter the number of rows:3
-Enter the number of columns:3
-Enter the elements of the matrix
-1 2 3 4 5 6 7 8 9
-Enter the number of row:3
-Enter the number of columns:3
-Enter the elements of the matrix
-1 2 3 4 5 6 7 8 9
-Addition of matrices
-the result is
-2 4 6
-8 10 12
-14 16 18
-subtraction of matrices
-The result is
-0 0 0
-0 0 0
-0 0 0 */
