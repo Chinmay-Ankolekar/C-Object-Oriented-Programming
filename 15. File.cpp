@@ -1,9 +1,3 @@
-/*Write a program to read the class object of student_info such as 
-name,age,sex,height and weight from the keyboard and to store them on a 
-specified file using read() and write() functions. Again the same file is 
-opened for reading and displaying the contents of the file on the screen.
-*/
-
 #include<iostream>
 #include<fstream>
 #include<string>
@@ -54,32 +48,3 @@ int main(){
     fin.close();
     return 0;
 }
-/*
-OUTPUT:-
-Enter the No. of Records:2
-
-Enter Name:ABC
-Enter Age:12
-Enter Sex (F/M):M
-Enter Height:5
-Enter Weight:56
-
-Enter Name:XYZ
-Enter Age:12
-Enter Sex (F/M):F
-Enter Height:4.5
-Enter Weight:45
-
-----Displaying Contents of the file---- 
-Name : ABC
-Age  :12
-Sex  :M
-Height :5
-Weight :56
-
-Name : XYZ
-Age  :12
-Sex  :F
-Height :4.5
-Weight :45
-*/
