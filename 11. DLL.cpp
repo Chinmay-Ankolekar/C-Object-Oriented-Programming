@@ -1,8 +1,3 @@
-/*Write a C++ program to create a class called DLIST (Doubly Linked 
-List) with member functions to insert a node at a specified position and 
-delete a node from a specified position of the list. Demonstrate the 
-operations by displaying the content of the list after every operation.*/
-
 #include<iostream>
 using namespace std;
 
@@ -115,66 +110,3 @@ int main(){
   }
     return 0;
 }
-
-/* OUTPUT:-
-     Double Linked List:-
-       1.Create
-       2.Insert
-       3.Delete
-       4.Display
-       5.Exit
-      Enter your choice :1
-      Enter the Number of Nodes to be created:5
-      Enter the data field:1
-      Enter the data field:2
-      Enter the data field:3
-      Enter the data field:4
-      Enter the data field:5
-
-     Double Linked List:-
-       1.Create
-       2.Insert
-       3.Delete
-       4.Display
-       5.Exit
-      Enter your choice:2
-      Enter the data field:2
-      Enter the position:3
-
-     Double Linked List:-
-      1.Create
-      2.Insert
-      3.Delete
-      4.Display
-      5.Exit
-     Enter your choice:4
-      1  2  2  3  4  5
-
-     Double Linked List:-
-      1.Create
-      2.Insert
-      3.Delete
-      4.Display
-      5.Exit
-     Enter your choice:3
-     Enter the position:3
-
-     Double Linked List:-
-      1.Create
-      2.Insert
-      3.Delete
-      4.Display
-      5.Exit
-     Enter your choice:4
-      1  2  3  4  5
-      
-     Double Linked List:-
-      1.Create
-      2.Insert
-      3.Delete
-      4.Display
-      5.Exit
-      Enter your choice:5*/
-
-
-
