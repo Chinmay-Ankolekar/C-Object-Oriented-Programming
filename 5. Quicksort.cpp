@@ -1,6 +1,3 @@
-/*Write a C++ program to create a template function for Quick sort and 
-demonstrate sorting of integers and doubles*/
-
 #include<iostream>
 #include<stdlib.h>
 using namespace std;
@@ -77,30 +74,3 @@ int main()
     }
     return 0;
 }
-/*
-OUTPUT:-
-
-Quicksort:-       
-1.Integers        
-2.Double
-3.Exit
-Enter Your choice:1
-Enter the no.of terms:4
-Enter the elements:9 1 8 7
-Sorted array:1 7 8 9
-
-Quicksort:-
-1.Integers
-2.Double
-3.Exit
-Enter Your choice:2
-Enter the no.of terms:4  
-Enter the elements:
-9.345 1.678 8.987 7.234
-Sorted array:1.678 7.234 8.987 9.345
-
-Quicksort:-
-1.Integers
-2.Double
-3.Exit
-Enter Your choice:3*/
