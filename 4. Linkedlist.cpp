@@ -1,9 +1,3 @@
-/*Write a C++ program to create a class called LIST (linked list) with 
-member functions to insert an element at the front as well as to delete an 
-element from the front of the list. Demonstrate all the functions after 
-creating a list object.
-*/
-
 #include<iostream>
 #include<stdlib.h>
 using namespace std;
@@ -71,64 +65,3 @@ int main()
         }
     }
 }
-/*
-OUTPUT:-
-
-Linked list Operations:-
-1.Insert front
-2.Delete front
-3.Display
-4.Exit
-Enter your choice :1    
-Enter the data:1
-
-Linked list Operations:-
-1.Insert front
-2.Delete front
-3.Display
-4.Exit
-Enter your choice :1    
-Enter the data:2
-
-Linked list Operations:-
-1.Insert front
-2.Delete front
-3.Display
-4.Exit
-Enter your choice :1
-Enter the data:3
-
-Linked list Operations:-
-1.Insert front
-2.Delete front
-3.Display
-4.Exit
-Enter your choice :3
-Elements in the list are:3 2 1
-
-Linked list Operations:-
-1.Insert front
-2.Delete front
-3.Display
-4.Exit
-Enter your choice :2
-The Deleted element is:3
-
-Linked list Operations:-
-1.Insert front
-2.Delete front
-3.Display
-4.Exit
-Enter your choice :3
-Elements in the list are:2 1
-
-Linked list Operations:-
-1.Insert front
-2.Delete front
-3.Display
-4.Exit
-Enter your choice :4*/
-
-
-
-
