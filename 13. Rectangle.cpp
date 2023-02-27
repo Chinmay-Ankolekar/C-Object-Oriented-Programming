@@ -7,7 +7,7 @@ class rect{
     ~rect();
     void len();
     void breadth();
-   void area(); // friend void area(rect);
+    void area(); 
 };
 rect::rect(int x,int y){
     l=x;
