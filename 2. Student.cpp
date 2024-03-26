@@ -13,9 +13,9 @@ class STUDENT
 void STUDENT::getdata()
 {
   cout<<"\nEnter student USN: " ;
-  cin>>name;
-  cout<<"Enter student name: " ;
   cin>>num;
+  cout<<"Enter student name: " ;
+  cin>>name;
   cout<<"Enter student's 3 marks: " ;
   cin>>m1>>m2>>m3;
 }
@@ -26,9 +26,9 @@ void STUDENT::dispdata()
     low=m2;}
   else if(m3<low){
     low=m3;}
-  avg=(m1+m2+m3-low)/2;
-  cout<<"\nStudent USN: "<<name
-  <<"\nStudent name: "<<num
+  avg=(m1+m2+m3-low)/2.0;
+  cout<<"\nStudent USN: "<<num
+  <<"\nStudent name: "<<name
   <<"\nStudent average: "<<avg;
 }
 int main()
